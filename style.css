@@ -1,0 +1,33 @@
+body { 
+  background-image: linear-gradient(30deg, #ff00ff, #0071bc
+  );
+  display: flex;
+  justify-content: center;
+
+}
+
+.container {
+  margin-top: 5vh;
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+
+}
+
+h1.container  {
+color: white;
+}
+
+
+a.navbar {
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  align-items: flex-start;
+}
