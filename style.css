@@ -12,6 +12,7 @@ body {
 .logo {
   display: flex;
   justify-content: center;
+  width: 35vw;
 }
 
 img {
