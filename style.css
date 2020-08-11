@@ -6,29 +6,45 @@ body {
 
 }
 
+a {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: gray;
+}
+
+a:active {
+  color: darkgray;
+}
+
 .container {
   margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: white;
+}
 
 .logo {
   display: flex;
   justify-content: center;
-  width: 35vw;
-}
-
-img {
-
-}
-
-h1.container  {
-color: white;
-}
-
-
-a.navbar {
-  color: white;
+  height: 20vh;
 }
 
 .navbar {
   display: flex;
-  align-items: flex-start;
+  justify-content: space-around;
+  color: white;
+  width: 35vw;
+}
+
+.icon {
+  height: 40px;
 }
